@@ -1,0 +1,240 @@
+Mods: {
+	UnofficialCalamityWhips: {
+		Config: {
+			ItemHeader: Config
+			
+			WhipDamageModifier: {
+				Label: Whip Damage Modifier
+				Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+			}
+		}
+		
+		
+		ItemTooltip: {
+			WulfrumChain: 
+				'''
+				Your summons will focus struck enemies
+				Flimsy, but it will have to do
+				'''
+			StaticScourge: 
+				'''
+				A short range, lightning fast whip 
+				Infuses enemies with static electricity, which your minions can discharge to release sparks
+				'''
+			FungalFlailItem:
+				'''
+				4 summon tag damage
+				Your minions will summon homing mushrooms on hit that heals you
+				'Not edible'
+				'''
+			SkySplitterItem:
+				'''
+				5 summon tag damage
+				Gives your whips the ability to restore flight time.
+				'Light as a feather'
+				'''
+			CongeledDuoWhip: 
+				'''
+				10 summon tag damage
+				Left click to shoot two slimy whips in the same directions
+				Right click to charge up shoot two slimy whips in opposite directions
+				'''
+			SulphuricScourge: 
+				'''
+				Your minions will release toxic clouds into the air
+				'''
+			DaedalusWhipItem:
+				'''
+				11 summon tag damage
+				Summons floating snowballs on tag which split into ice shards.
+				'Imbued with the power of Cryogen'
+				'''
+			PrismBreak: 
+				'''
+				Your minions will release a volley of crystal shrapnel.
+				-Community Designed Item-
+				Design by 'reldandle'
+				'''
+			BrimstoneLash: 
+				'''
+				Inflicts Brimstone Flame
+				Your minions will release a brimstone explosion on a hit.
+				'Languish in the flames of Gehenna'
+				'''
+			StellarWindItem: 
+				'''
+				Inflicts Astral Infection.
+				Your minions will call down astral stars on a hit.
+				'''
+			SandstoneReigns: 
+				'''
+				Your minions will summon a vicious sand shark to tag team.
+				'Let them know what you have seen today'
+				'''
+			RightousDawn:
+				'''
+				Your minions will release splitting stardust squids on hit.
+				'Shoot for the moon, and you'll land among the stars'
+				'''
+			ResonateStriker: 
+				'''
+				Infuses you with pure resonance on each hit, increasing your movement and melee speed
+				'''
+			RighteousDawnTwo: 
+				'''
+				Inflicts Holy Flames
+				If you are nearby your target, your minions will heal and imbue you with greater resistance
+				'A true king leads their troops into battle'
+				'''
+			UnrelentingTorment: 
+				'''
+				Releases a torment of ghastly claws
+				Your minions will call disembodied claws from beyond
+				'''
+			SlimySling: 
+				'''
+				Increases whip range by 8%
+				'''
+			GelatinousGlove: 
+				'''
+				12% increased melee and whip speed
+				Enables auto swing for melee weapons and whips
+				Increases whip range by 15%
+				Whips slow nonboss enemies
+				Grants a burst of speed after hitting with a whip
+				'''
+			CrystalLodestone:
+				'''
+				Your whips release exploding boulders.
+				'''
+			FossilizedAmber:
+				'''
+				Gain 8 defense after hitting with a whip.
+				'''
+			CrystalOfResilience:
+				'''
+				Your whips release exploding boulders.
+				Gain 8 defense after hitting with a whip.
+				20% increased mining speed, 5% damage reduction, and +10 defense while underground or in the underworld
+				'''
+			Centauri:
+				'''
+				50 summon tag damage
+				Can and will hurl planets
+				'Nearest, but far beyond...'
+				'''
+			FlinxFurMitten: 
+				'''
+				12% increased melee and whip speed
+				Enables auto swing for melee weapons and whips
+				Whips slow enemies that are not immune to confusion
+				Increases whip range by 8%
+				'''
+			RingOfAlacrity: 
+				'''
+				Gain 10% movement speed after hitting with a whip
+				'''
+			SuspiciousLeafExtract: 
+				'''
+				Spawns a circle of orbiting leaves after hitting with a whip
+				'''
+			BoulderItem: 
+				'''
+				Your whips will shoot out boulders
+				'''
+			BlossomsBlessingItem:
+				'''
+				Gives you The Blossom's Blessing on hit 
+				25% chance to shoot a spore
+				30 summon tag damage
+				Your summons will target struck enemies
+				'''
+			CoralCrusherItem:
+				'''
+				Your minions summon coral fragments
+				6 summon tag damage
+				Your summons will target struck enemies
+				'''
+			DevourersMaw: 
+				'''
+				Will infuse you with the Devourer's Hunger on hit, granting power the more you attack.
+				Inflicts Godslayer Inferno
+				-Community Designed Item-
+				Design by 'MothEggs, Paige, and KumaTerra'
+				'''
+			SirensSerenityItem:
+				'''
+				The companionship between the Leviathan and Anahita inspires you and your minions
+				18 summon tag damage
+				Your summons will target struck enemies
+				Your minions will occasionally drop orbs that will heal and grant a buff when picked up
+				-Community Designed Item-
+				Design by 'CharlieTheFatCat'
+				'''
+			DivineHeadpat:
+				'''
+				Pat pat
+				'''
+			
+		}
+		
+		ItemName: {
+			WulfrumChain: '''Wulfrum Chain'''
+			StaticScourge: '''Static Scourge'''
+			FungalFlailItem: '''Fungal Flail'''
+			SkySplitterItem: '''Sky Splitter'''
+			CongeledDuoWhip : '''Congeled Duo-Whip'''
+			SulphuricScourge : '''Sulphuric Scourge'''
+			DaedalusWhipItem: '''Daedalus Whip'''
+			PrismBreak: '''Prism Break'''
+			BrimstoneLash: '''Lash of Languish'''
+			StellarWindItem: '''Stellar Wind'''
+			SandstoneReigns: '''Forgotten Predator'''
+			RightousDawn: '''Star Scrapper'''
+			ResonateStriker: '''Resonant Striker'''
+			RighteousDawnTwo: '''Righteous Dawn'''
+			UnrelentingTorment: '''Unrelenting Torment'''
+			Centauri: '''Proxima Centauri'''
+			SlimySling: '''Sticky Fingers'''
+			GelatinousGlove: '''Worn Grip'''
+			CrystalLodestone: '''Forbidden Remains'''
+			FossilizedAmber: '''Fossilized Amber'''
+			CrystalOfResilience: '''Crystalized Lodestone'''
+			FlinxFurMitten: '''Flinx Fur Mittens'''
+			RingOfAlacrity: '''Ring of Alacrity'''
+			SuspiciousLeafExtract: '''Suspicious Leaf Extract'''
+			BoulderItem: '''Stone Rubble'''
+			BlossomsBlessingItem: '''Blossom's Blessing'''
+			DevourersMaw: '''Devourer's Maw'''
+			SirensSerenityItem: '''Siren's Serenity'''
+			DivineHeadpat: '''Divine Headpat'''	
+			CoralCrusherItem: '''Coral Crusher'''
+
+		}
+
+		BuffName: {
+			PureResonance: '''Pure Resonance'''
+			SkyBuff: '''Favorable Winds'''
+			StarlightTouch: '''Starlight Touch'''
+			RighteousBlessing: '''Righteous Blessing'''
+			StonesEndurance: '''Controlled Petrification'''
+			Alacrity: '''Alacrity'''
+			BlossomsBlessingBuff: '''Blossom's Blessing'''
+			DevourersHunger: '''Devourer's Hunger'''
+			HealingMelody: '''Healing Melody'''
+		}
+		
+		BuffDescription: {
+			PureResonance: '''Increases melee and movement speed'''
+			SkyBuff: '''Whip attacks will restore flight time'''
+			StarlightTouch: '''Increases defense by 20 and increases life regeneration'''
+			RighteousBlessing: '''Increases defense by 30 and increases life regeneration'''
+			StonesEndurance: '''10% damage reduction'''
+			Alacrity: '''10% increased speed'''
+			BlossomsBlessingBuff: '''Increases defense, life regen and movement speed'''
+			DevourersHunger: '''Gain increasing defense and summon damage the more you hit with Devourer's Maw'''
+			HealingMelody: '''Increases defense and life regeneration'''
+		}
+		
+	}
+}

@@ -1,0 +1,9 @@
+*.user
+*.sln
+*.dll
+*.editorconfig
+.vs/
+.cache/
+
+/obj
+/bin/Debug/net6.0

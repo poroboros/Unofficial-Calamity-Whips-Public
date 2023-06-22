@@ -1,0 +1,161 @@
+Do you like whips? Do you like Calamity? So do we! 
+Unofficial Calamity Whips is a mod that aims to add several whips to the Calamity mod, in order to fill in progression gaps for summoner whip builds.
+
+
+DISCLAIMER: Unofficial Calamity Whips is in no way affiliated with the Calamity Dev team. It is just a mod for fans of Calamity, created by a fan of Calamity.
+
+Currently the mod adds 20 new whips and 8 new accessories to the game, all of which can be crafted with Calamity items.
+The config contains an option to multiple every whip's damage by a modifier from 50% to 150%, in case you feel the weapons are too over or underpowered for your taste.
+
+Unofficial Calamity Whips Team
+Developers: Poroboros, DT, and Falco
+Artists: Thyreophora, g0ldyosh, bleamy, Poroboros
+Special Thanks: Kas
+Community Item Contributors: reldandle, CharlieTheFatCat, KumaTerra, Paige, MothEggs
+
+VERSION 1.1.4 Changes
+Made several internal changes to prepare for the 1.4.4 port.
+Added several sprite changes.
+Removed lag at some places (hopefully).
+Probably missed something, will fix later.
+
+VERSION 1.1.3 Changes
+Fixed Siren's Serenity Bugs (finally).
+
+
+BUG FIXES:
+Made all enemies immune to confusion also immune to flinx fur.
+
+VERSION 1.1.2 Changes
+
+BUG FIXES:
+Fixed an issue where DOG was immune to whips.
+Changed several whips that were overpowered on worm bosses.
+Fixed an issue where whips would cause lower DPS do to I-frames
+Fixed an issue with static scourge not working after a calamity update.
+
+SPRITE UPDATES
+Updated the Devourer's Maw buff icon
+Updated Resonant Striker's Projectile
+
+VERSION 1.1.0 Changes
+
+Alright players, this is the last update for the Unofficial Calamity Whips mod, as the dev team is ready to move on to different projects.
+Now with that, it doesn't mean that Calamity Whips is dead, we're proud to announce that we're merging with the Catalyst Mod team to bring better weapons, accessories, and gear into Calamity and Terraria.
+
+But let's quickly go into what we're changing with this patch.
+
+New Items:
+Weapons:
+-Added Coral Crusher, an ocean themed whip bought from the Sea King.
+
+-Added Siren’s Serenity, a whip dropped by Anahita inspired by her bond with Leviathan.
+	-Thank you to CharlieTheFatCat!
+
+-Added Blossom’s Blessing, a Uelibloom whip that makes you the world’s most dangerous gardener.
+
+-Added Devourer’s Maw, a Cosmilite whip that gives you the strength and hunger to devour gods.
+	-Thank you to MothEggs, KumaTerra, and Paige!
+
+Accessories: 
+-Added Flinx Fur Mittens
+-Added Ring of Alacrity
+-Added Suspicious Leaf Extract
+
+-Added a Divine Headpat
+
+Changes:
+Weapons:
+Wulfrum Chain:
+	-Resprited.
+	-Damage reduced from 10 to 9.
+
+Static Scourge:
+	-Resprited.
+	-Damage reduced from 11 to 9.
+
+Fungal Flail:
+	-Resprited.
+	-Healing reduced from 5 to 2.
+
+Sky Splitter:
+	-Resprited.
+
+Congeled Duo-Whip:
+	-Resprited and reworked.
+	-Added an alternate attack on right-click.
+	-Damage reduced from 35 to 16.
+
+Prism Break:
+	-Sprite tweaks.
+
+Sulphuric Scourge:
+	-Resprited.
+
+Daedalus Whip:
+	-Resprited.
+
+Lash of Languish:
+	-Resprited.
+	-Damage reduced from 100 to 92.
+
+Stellar Wind:
+	-Resprited.
+	-Damage reduced from 75 to 69.
+	-Lowered the amount of stars Stellar Wind can create from 2-5 to 1-2.
+
+Sandstone Reigns:
+	-Renamed to Forgotten Predator.
+	-Resprited and reworked.
+	-Damage increased from 85 to 100.
+
+Star Scrapper:
+	-Resprited and reworked.
+
+Resonant Striker:
+	-Changed spelling from “resonate to resonant” (verb to adjective)
+	-Resprited.
+	-Lowered movement speed bonus.
+	-Reduced range by 20%.
+	-Removed summon tag damage.
+
+Righteous Dawn:
+	-Resprited.
+	-Damage reduced from 400 to 380. 
+	-Reduced the buff’s defense and regen.
+
+Unrelenting Torment:
+	-Sprite tweaks.
+	-Damage reduced from 370 to 200.
+	-Lowered the number of hands summoned and hand damage.
+
+Centauri:
+	-Renamed to Proxima Centauri.
+	-Resprited.
+	-Damage increased from 1500 to 2000.
+	-Summon tag damage reduced from 100 to 50.
+
+Accessories: 
+Forbidden Remains and Crystalized Lodestone:
+	-Resprited.
+	-Reworked, whips now release exploding boulders rather than fossil shards.
+
+Sticky Fingers:
+	-Resprited.
+	-Reworked and moved to Post-King Slime.
+
+Worn Grip:
+	-Resprited.
+	-Reworked and moved to Post-Plantera.
+
+Other Changes:
+	-Changed the crafting recipe for many items.
+	-Changed the sell value for most items.
+	-Added a config to give certain Calamity armors whip stats.
+	-Added a config to turn off the startup message.
+	-Bug fixes.
+
+
+
+Catalyst Merge:
+In the future, active development of this mod as a standalone has ceased. However, we will continue to work to add many of the items to Catalyst, as well as other future Catalyst updates. We hope you are excited for what we have in store.
