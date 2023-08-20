@@ -10,7 +10,7 @@ namespace UnofficialCalamityWhips.Weapons.HM.BrimstoneLash
 		float damageMod = ModContent.GetInstance<UnofficialCalamityWhipsConfig>().WhipDamageModifier;
 		public override void SetStaticDefaults() {
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
-			DisplayName.SetDefault("Lash of Languish");
+
 			//Tooltip.SetDefault("Inflicts Brimstone Flame\n Your minions will release a brimstone explosion on hit.\n'Languish in the flames of Gehenna'");
 		}
 

@@ -12,7 +12,6 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class Saturn : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Saturn");
 		}
 
 		public override void SetDefaults()

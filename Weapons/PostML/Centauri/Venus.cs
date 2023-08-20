@@ -12,7 +12,7 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class Venus : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("venus");
+
 		}
 
 		public override void SetDefaults()

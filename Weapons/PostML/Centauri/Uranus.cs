@@ -12,7 +12,6 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class Uranus : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Uranus");
 		}
 
 		public override void SetDefaults()

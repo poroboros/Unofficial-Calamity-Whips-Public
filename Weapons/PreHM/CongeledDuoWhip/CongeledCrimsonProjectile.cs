@@ -92,7 +92,7 @@ namespace UnofficialCalamityWhips.Weapons.PreHM.CongeledDuoWhip
 
 
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) {
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
 
 
 			if (!ModContent.GetInstance<UnofficialCalamityWhipsConfig>().AllowTagStacking) {

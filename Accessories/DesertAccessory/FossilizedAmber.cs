@@ -39,14 +39,15 @@ namespace UnofficialCalamityWhips.Accessories.DesertAccessory
 			hasCrystal = false;
 		}
 
+		public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
+		{
+            if (hasCrystal && proj.DamageType == DamageClass.SummonMeleeSpeed)
+            {
+                //Main.NewText(proj.DamageType.ToString(), 150, 250, 150);
+                Main.player[proj.owner].AddBuff(ModContent.BuffType<StonesEndurance>(), 240);
+            }
+        }
 
-		public override void OnHitNPCWithProj(Projectile proj, NPC target, int damage, float knockback, bool crit)
-        {
-            if (hasCrystal && proj.DamageType == DamageClass.SummonMeleeSpeed) { 
-				//Main.NewText(proj.DamageType.ToString(), 150, 250, 150);
-				Main.player[proj.owner].AddBuff(ModContent.BuffType<StonesEndurance>(), 240);
-			}
-		}
 	}
 
 

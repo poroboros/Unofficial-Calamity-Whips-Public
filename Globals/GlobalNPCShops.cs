@@ -13,27 +13,27 @@ namespace UnofficialCalamityWhips.Globals
 	public class GlobalNPCShops : GlobalNPC
 	{
 
-		public override void SetupShop(int type, Chest shop, ref int nextSlot) { //edit npc shops
+		public override void ModifyShop(NPCShop shop)
+		{
+            if (UnofficialCalamityWhips.calamity != null)
+            {
+                // 	if (UnofficialCalamityWhips.calamity.TryFind<ModNPC>("THIEF", out ModNPC npc)) {
+                // 		if (type==npc.Type) {
+                // 		shop.item[nextSlot].SetDefaults(ModContent.ItemType<WornGrip>());
+                // 		//shop.item[nextSlot].shopCustomPrice = Item.sellPrice(copper: 40);
+                // 		nextSlot++;
+                // 		}
+                // 	}
+                if (UnofficialCalamityWhips.calamity.TryFind<ModNPC>("SEAHOE", out ModNPC npc))
+                {
+                    if (shop.NpcType == npc.Type)
+                    {
+						shop.Add(ModContent.ItemType<CoralCrusherItem>());
 
-			if (UnofficialCalamityWhips.calamity != null) {
-			// 	if (UnofficialCalamityWhips.calamity.TryFind<ModNPC>("THIEF", out ModNPC npc)) {
-			// 		if (type==npc.Type) {
-			// 		shop.item[nextSlot].SetDefaults(ModContent.ItemType<WornGrip>());
-			// 		//shop.item[nextSlot].shopCustomPrice = Item.sellPrice(copper: 40);
-			// 		nextSlot++;
-			// 		}
-			// 	}
-				if (UnofficialCalamityWhips.calamity.TryFind<ModNPC>("SEAHOE", out ModNPC npc)) {
-					if (type==npc.Type) {
-					shop.item[nextSlot].SetDefaults(ModContent.ItemType<CoralCrusherItem>());
-					//shop.item[nextSlot].shopCustomPrice = Item.sellPrice(copper: 40);
-					nextSlot++;
-					}
-				}
-			}
-
-
-		}
+                    }
+                }
+            }
+        }
 	}
 
 

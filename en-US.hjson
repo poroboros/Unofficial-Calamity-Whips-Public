@@ -2,21 +2,20 @@ Mods: {
 	UnofficialCalamityWhips: {
 		Config: {
 			ItemHeader: Config
-			
+
 			WhipDamageModifier: {
 				Label: Whip Damage Modifier
 				Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
 			}
 		}
-		
-		
+
 		ItemTooltip: {
-			WulfrumChain: 
+			WulfrumChain:
 				'''
 				Your summons will focus struck enemies
 				Flimsy, but it will have to do
 				'''
-			StaticScourge: 
+			StaticScourge:
 				'''
 				A short range, lightning fast whip 
 				Infuses enemies with static electricity, which your minions can discharge to release sparks
@@ -33,40 +32,37 @@ Mods: {
 				Gives your whips the ability to restore flight time.
 				'Light as a feather'
 				'''
-			CongeledDuoWhip: 
+			CongeledDuoWhip:
 				'''
 				10 summon tag damage
 				Left click to shoot two slimy whips in the same directions
 				Right click to charge up shoot two slimy whips in opposite directions
 				'''
-			SulphuricScourge: 
-				'''
-				Your minions will release toxic clouds into the air
-				'''
+			SulphuricScourge: Your minions will release toxic clouds into the air
 			DaedalusWhipItem:
 				'''
 				11 summon tag damage
 				Summons floating snowballs on tag which split into ice shards.
 				'Imbued with the power of Cryogen'
 				'''
-			PrismBreak: 
+			PrismBreak:
 				'''
 				Your minions will release a volley of crystal shrapnel.
 				-Community Designed Item-
 				Design by 'reldandle'
 				'''
-			BrimstoneLash: 
+			BrimstoneLash:
 				'''
 				Inflicts Brimstone Flame
 				Your minions will release a brimstone explosion on a hit.
 				'Languish in the flames of Gehenna'
 				'''
-			StellarWindItem: 
+			StellarWindItem:
 				'''
 				Inflicts Astral Infection.
 				Your minions will call down astral stars on a hit.
 				'''
-			SandstoneReigns: 
+			SandstoneReigns:
 				'''
 				Your minions will summon a vicious sand shark to tag team.
 				'Let them know what you have seen today'
@@ -76,26 +72,20 @@ Mods: {
 				Your minions will release splitting stardust squids on hit.
 				'Shoot for the moon, and you'll land among the stars'
 				'''
-			ResonateStriker: 
-				'''
-				Infuses you with pure resonance on each hit, increasing your movement and melee speed
-				'''
-			RighteousDawnTwo: 
+			ResonateStriker: Infuses you with pure resonance on each hit, increasing your movement and melee speed
+			RighteousDawnTwo:
 				'''
 				Inflicts Holy Flames
 				If you are nearby your target, your minions will heal and imbue you with greater resistance
 				'A true king leads their troops into battle'
 				'''
-			UnrelentingTorment: 
+			UnrelentingTorment:
 				'''
 				Releases a torment of ghastly claws
 				Your minions will call disembodied claws from beyond
 				'''
-			SlimySling: 
-				'''
-				Increases whip range by 8%
-				'''
-			GelatinousGlove: 
+			SlimySling: Increases whip range by 8%
+			GelatinousGlove:
 				'''
 				12% increased melee and whip speed
 				Enables auto swing for melee weapons and whips
@@ -103,14 +93,8 @@ Mods: {
 				Whips slow nonboss enemies
 				Grants a burst of speed after hitting with a whip
 				'''
-			CrystalLodestone:
-				'''
-				Your whips release exploding boulders.
-				'''
-			FossilizedAmber:
-				'''
-				Gain 8 defense after hitting with a whip.
-				'''
+			CrystalLodestone: Your whips release exploding boulders.
+			FossilizedAmber: Gain 8 defense after hitting with a whip.
 			CrystalOfResilience:
 				'''
 				Your whips release exploding boulders.
@@ -123,25 +107,16 @@ Mods: {
 				Can and will hurl planets
 				'Nearest, but far beyond...'
 				'''
-			FlinxFurMitten: 
+			FlinxFurMitten:
 				'''
 				12% increased melee and whip speed
 				Enables auto swing for melee weapons and whips
 				Whips slow enemies that are not immune to confusion
 				Increases whip range by 8%
 				'''
-			RingOfAlacrity: 
-				'''
-				Gain 10% movement speed after hitting with a whip
-				'''
-			SuspiciousLeafExtract: 
-				'''
-				Spawns a circle of orbiting leaves after hitting with a whip
-				'''
-			BoulderItem: 
-				'''
-				Your whips will shoot out boulders
-				'''
+			RingOfAlacrity: Gain 10% movement speed after hitting with a whip
+			SuspiciousLeafExtract: Spawns a circle of orbiting leaves after hitting with a whip
+			BoulderItem: Your whips will shoot out boulders
 			BlossomsBlessingItem:
 				'''
 				Gives you The Blossom's Blessing on hit 
@@ -155,7 +130,7 @@ Mods: {
 				6 summon tag damage
 				Your summons will target struck enemies
 				'''
-			DevourersMaw: 
+			DevourersMaw:
 				'''
 				Will infuse you with the Devourer's Hunger on hit, granting power the more you attack.
 				Inflicts Godslayer Inferno
@@ -171,70 +146,434 @@ Mods: {
 				-Community Designed Item-
 				Design by 'CharlieTheFatCat'
 				'''
-			DivineHeadpat:
-				'''
-				Pat pat
-				'''
-			
+			DivineHeadpat: Pat pat
 		}
-		
-		ItemName: {
-			WulfrumChain: '''Wulfrum Chain'''
-			StaticScourge: '''Static Scourge'''
-			FungalFlailItem: '''Fungal Flail'''
-			SkySplitterItem: '''Sky Splitter'''
-			CongeledDuoWhip : '''Congeled Duo-Whip'''
-			SulphuricScourge : '''Sulphuric Scourge'''
-			DaedalusWhipItem: '''Daedalus Whip'''
-			PrismBreak: '''Prism Break'''
-			BrimstoneLash: '''Lash of Languish'''
-			StellarWindItem: '''Stellar Wind'''
-			SandstoneReigns: '''Forgotten Predator'''
-			RightousDawn: '''Star Scrapper'''
-			ResonateStriker: '''Resonant Striker'''
-			RighteousDawnTwo: '''Righteous Dawn'''
-			UnrelentingTorment: '''Unrelenting Torment'''
-			Centauri: '''Proxima Centauri'''
-			SlimySling: '''Sticky Fingers'''
-			GelatinousGlove: '''Worn Grip'''
-			CrystalLodestone: '''Forbidden Remains'''
-			FossilizedAmber: '''Fossilized Amber'''
-			CrystalOfResilience: '''Crystalized Lodestone'''
-			FlinxFurMitten: '''Flinx Fur Mittens'''
-			RingOfAlacrity: '''Ring of Alacrity'''
-			SuspiciousLeafExtract: '''Suspicious Leaf Extract'''
-			BoulderItem: '''Stone Rubble'''
-			BlossomsBlessingItem: '''Blossom's Blessing'''
-			DevourersMaw: '''Devourer's Maw'''
-			SirensSerenityItem: '''Siren's Serenity'''
-			DivineHeadpat: '''Divine Headpat'''	
-			CoralCrusherItem: '''Coral Crusher'''
 
+		ItemName: {
+			WulfrumChain: Wulfrum Chain
+			StaticScourge: Static Scourge
+			FungalFlailItem: Fungal Flail
+			SkySplitterItem: Sky Splitter
+			CongeledDuoWhip: Congeled Duo-Whip
+			SulphuricScourge: Sulphuric Scourge
+			DaedalusWhipItem: Daedalus Whip
+			PrismBreak: Prism Break
+			BrimstoneLash: Lash of Languish
+			StellarWindItem: Stellar Wind
+			SandstoneReigns: Forgotten Predator
+			RightousDawn: Star Scrapper
+			ResonateStriker: Resonant Striker
+			RighteousDawnTwo: Righteous Dawn
+			UnrelentingTorment: Unrelenting Torment
+			Centauri: Proxima Centauri
+			SlimySling: Sticky Fingers
+			GelatinousGlove: Worn Grip
+			CrystalLodestone: Forbidden Remains
+			FossilizedAmber: Fossilized Amber
+			CrystalOfResilience: Crystalized Lodestone
+			FlinxFurMitten: Flinx Fur Mittens
+			RingOfAlacrity: Ring of Alacrity
+			SuspiciousLeafExtract: Suspicious Leaf Extract
+			BoulderItem: Stone Rubble
+			BlossomsBlessingItem: Blossom's Blessing
+			DevourersMaw: Devourer's Maw
+			SirensSerenityItem: Siren's Serenity
+			DivineHeadpat: Divine Headpat
+			CoralCrusherItem: Coral Crusher
 		}
 
 		BuffName: {
-			PureResonance: '''Pure Resonance'''
-			SkyBuff: '''Favorable Winds'''
-			StarlightTouch: '''Starlight Touch'''
-			RighteousBlessing: '''Righteous Blessing'''
-			StonesEndurance: '''Controlled Petrification'''
-			Alacrity: '''Alacrity'''
-			BlossomsBlessingBuff: '''Blossom's Blessing'''
-			DevourersHunger: '''Devourer's Hunger'''
-			HealingMelody: '''Healing Melody'''
+			PureResonance: Pure Resonance
+			SkyBuff: Favorable Winds
+			StarlightTouch: Starlight Touch
+			RighteousBlessing: Righteous Blessing
+			StonesEndurance: Controlled Petrification
+			Alacrity: Alacrity
+			BlossomsBlessingBuff: Blossom's Blessing
+			DevourersHunger: Devourer's Hunger
+			HealingMelody: Healing Melody
 		}
-		
+
 		BuffDescription: {
-			PureResonance: '''Increases melee and movement speed'''
-			SkyBuff: '''Whip attacks will restore flight time'''
-			StarlightTouch: '''Increases defense by 20 and increases life regeneration'''
-			RighteousBlessing: '''Increases defense by 30 and increases life regeneration'''
-			StonesEndurance: '''10% damage reduction'''
-			Alacrity: '''10% increased speed'''
-			BlossomsBlessingBuff: '''Increases defense, life regen and movement speed'''
-			DevourersHunger: '''Gain increasing defense and summon damage the more you hit with Devourer's Maw'''
-			HealingMelody: '''Increases defense and life regeneration'''
+			PureResonance: Increases melee and movement speed
+			SkyBuff: Whip attacks will restore flight time
+			StarlightTouch: Increases defense by 20 and increases life regeneration
+			RighteousBlessing: Increases defense by 30 and increases life regeneration
+			StonesEndurance: 10% damage reduction
+			Alacrity: 10% increased speed
+			BlossomsBlessingBuff: Increases defense, life regen and movement speed
+			DevourersHunger: Gain increasing defense and summon damage the more you hit with Devourer's Maw
+			HealingMelody: Increases defense and life regeneration
 		}
-		
+
+		Buffs: {
+			StonesEndurance: {
+				DisplayName: Stones Endurance
+				Description: Mods.UnofficialCalamityWhips.Buffs.StonesEndurance.Description
+			}
+
+			Alacrity: {
+				DisplayName: Alacrity
+				Description: Mods.UnofficialCalamityWhips.Buffs.Alacrity.Description
+			}
+
+			BitterCold: {
+				DisplayName: Bitter Cold
+				Description: Mods.UnofficialCalamityWhips.Buffs.BitterCold.Description
+			}
+
+			BrimstoneTagDebuff: {
+				DisplayName: Brimstone Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.BrimstoneTagDebuff.Description
+			}
+
+			DaedalusWhipDebuff: {
+				DisplayName: Daedalus Whip Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.DaedalusWhipDebuff.Description
+			}
+
+			PrismTagDebuff: {
+				DisplayName: Prism Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.PrismTagDebuff.Description
+			}
+
+			SandstoneTagDebuff: {
+				DisplayName: Sandstone Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.SandstoneTagDebuff.Description
+			}
+
+			HealingMelody: {
+				DisplayName: Healing Melody
+				Description: Mods.UnofficialCalamityWhips.Buffs.HealingMelody.Description
+			}
+
+			SirensSerenityDebuff: {
+				DisplayName: Sirens Serenity Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.SirensSerenityDebuff.Description
+			}
+
+			StarScraperDebuff: {
+				DisplayName: Star Scraper Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.StarScraperDebuff.Description
+			}
+
+			StellarWindDebuff: {
+				DisplayName: Stellar Wind Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.StellarWindDebuff.Description
+			}
+
+			SulphuricTagDebuff: {
+				DisplayName: Sulphuric Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.SulphuricTagDebuff.Description
+			}
+
+			BlossomsBlessingBuff: {
+				DisplayName: Blossoms Blessing Buff
+				Description: Mods.UnofficialCalamityWhips.Buffs.BlossomsBlessingBuff.Description
+			}
+
+			BlossomsBlessingDebuff: {
+				DisplayName: Blossoms Blessing Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.BlossomsBlessingDebuff.Description
+			}
+
+			CentauriDebuff: {
+				DisplayName: Centauri Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.CentauriDebuff.Description
+			}
+
+			DevourersHunger: {
+				DisplayName: Devourers Hunger
+				Description: Mods.UnofficialCalamityWhips.Buffs.DevourersHunger.Description
+			}
+
+			DevourerTagDebuff: {
+				DisplayName: Devourer Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.DevourerTagDebuff.Description
+			}
+
+			PureResonance: {
+				DisplayName: Pure Resonance
+				Description: Mods.UnofficialCalamityWhips.Buffs.PureResonance.Description
+			}
+
+			ResonateTagDebuff: {
+				DisplayName: Resonate Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.ResonateTagDebuff.Description
+			}
+
+			RighteousBlessing: {
+				DisplayName: Righteous Blessing
+				Description: Mods.UnofficialCalamityWhips.Buffs.RighteousBlessing.Description
+			}
+
+			RighteousTagDebuff: {
+				DisplayName: Righteous Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.RighteousTagDebuff.Description
+			}
+
+			TormentTagDebuff: {
+				DisplayName: Torment Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.TormentTagDebuff.Description
+			}
+
+			CongeledTagDebuff: {
+				DisplayName: Congeled Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.CongeledTagDebuff.Description
+			}
+
+			CoralCrusherDebuff: {
+				DisplayName: Coral Crusher Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.CoralCrusherDebuff.Description
+			}
+
+			FungalFlailDebuff: {
+				DisplayName: Fungal Flail Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.FungalFlailDebuff.Description
+			}
+
+			SkyBuff: {
+				DisplayName: Sky Buff
+				Description: Mods.UnofficialCalamityWhips.Buffs.SkyBuff.Description
+			}
+
+			SkySplitterDebuff: {
+				DisplayName: Sky Splitter Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.SkySplitterDebuff.Description
+			}
+
+			StaticTagDebuff: {
+				DisplayName: Static Tag Debuff
+				Description: Mods.UnofficialCalamityWhips.Buffs.StaticTagDebuff.Description
+			}
+		}
+
+		Items: {
+			CrystalLodestone: {
+				DisplayName: Crystal Lodestone
+				Tooltip: ""
+			}
+
+			CrystalOfResilience: {
+				DisplayName: Crystal Of Resilience
+				Tooltip: ""
+			}
+
+			FossilizedAmber: {
+				DisplayName: Fossilized Amber
+				Tooltip: ""
+			}
+
+			FlinxFurMitten: {
+				DisplayName: Flinx Fur Mitten
+				Tooltip: ""
+			}
+
+			GelatinousGlove: {
+				DisplayName: Gelatinous Glove
+				Tooltip: ""
+			}
+
+			SuspiciousLeafExtract: {
+				DisplayName: Suspicious Leaf Extract
+				Tooltip: ""
+			}
+
+			RingOfAlacrity: {
+				DisplayName: Ring Of Alacrity
+				Tooltip: ""
+			}
+
+			SlimySling: {
+				DisplayName: Slimy Sling
+				Tooltip: ""
+			}
+
+			DivineHeadpat: {
+				DisplayName: Divine Headpat
+				Tooltip: ""
+			}
+
+			BrimstoneLash: {
+				DisplayName: Brimstone Lash
+				Tooltip: ""
+			}
+
+			DaedalusWhipItem: {
+				DisplayName: Daedalus Whip Item
+				Tooltip: ""
+			}
+
+			PrismBreak: {
+				DisplayName: Prism Break
+				Tooltip: ""
+			}
+
+			SandstoneReigns: {
+				DisplayName: Sandstone Reigns
+				Tooltip: ""
+			}
+
+			BuffOrb: {
+				DisplayName: Buff Orb
+				Tooltip: ""
+			}
+
+			HealingOrb: {
+				DisplayName: Healing Orb
+				Tooltip: ""
+			}
+
+			SirensSerenityItem: {
+				DisplayName: Sirens Serenity Item
+				Tooltip: ""
+			}
+
+			RightousDawn: {
+				DisplayName: Rightous Dawn
+				Tooltip: ""
+			}
+
+			StellarWindItem: {
+				DisplayName: Stellar Wind Item
+				Tooltip: ""
+			}
+
+			SulphuricScourge: {
+				DisplayName: Sulphuric Scourge
+				Tooltip: ""
+			}
+
+			BlossomsBlessingItem: {
+				DisplayName: Blossoms Blessing Item
+				Tooltip: ""
+			}
+
+			Centauri: {
+				DisplayName: Centauri
+				Tooltip: ""
+			}
+
+			DevourersMaw: {
+				DisplayName: Devourers Maw
+				Tooltip: ""
+			}
+
+			ResonateStriker: {
+				DisplayName: Resonate Striker
+				Tooltip: ""
+			}
+
+			RighteousDawnTwo: {
+				DisplayName: Righteous Dawn Two
+				Tooltip: ""
+			}
+
+			UnrelentingTorment: {
+				DisplayName: Unrelenting Torment
+				Tooltip: ""
+			}
+
+			CongeledDuoWhip: {
+				DisplayName: Congeled Duo Whip
+				Tooltip: ""
+			}
+
+			CoralCrusherItem: {
+				DisplayName: Coral Crusher Item
+				Tooltip: ""
+			}
+
+			FungalFlailItem: {
+				DisplayName: Fungal Flail Item
+				Tooltip: ""
+			}
+
+			SkySplitterItem: {
+				DisplayName: Sky Splitter Item
+				Tooltip: ""
+			}
+
+			StaticScourge: {
+				DisplayName: Static Scourge
+				Tooltip: ""
+			}
+
+			WulfrumChain: {
+				DisplayName: Wulfrum Chain
+				Tooltip: ""
+			}
+		}
+
+		Projectiles: {
+			BoulderProj.DisplayName: Boulder Proj
+			BoulderProj1.DisplayName: Boulder Proj1
+			BoulderProj2.DisplayName: Boulder Proj2
+			OrbitLeaf.DisplayName: Orbit Leaf
+			BrimstoneLashProjectile.DisplayName: Brimstone Lash Projectile
+			DaedalusWhipProj.DisplayName: Daedalus Whip Proj
+			IceShard.DisplayName: Ice Shard
+			SnowBall.DisplayName: Snow Ball
+			PrismBreakProjectile.DisplayName: Prism Break Projectile
+			SandstoneReignsProjectile.DisplayName: Sandstone Reigns Projectile
+			SandstoneShark.DisplayName: Sandstone Shark
+			SirensSerenityProj.DisplayName: Sirens Serenity Proj
+			StardustSquid.DisplayName: Stardust Squid
+			StarScraperProj.DisplayName: Star Scraper Proj
+			StarScrapperDisjoint.DisplayName: Star Scrapper Disjoint
+			StellarWindProj.DisplayName: Stellar Wind Proj
+			SulphuricScourgeProjectile.DisplayName: Sulphuric Scourge Projectile
+			BlossomsBlessingProj.DisplayName: Blossoms Blessing Proj
+			CentauriProj.DisplayName: Centauri Proj
+			jupiter.DisplayName: jupiter
+			Mercury.DisplayName: Mercury
+			Neptune.DisplayName: Neptune
+			Saturn.DisplayName: Saturn
+			Uranus.DisplayName: Uranus
+			Venus.DisplayName: Venus
+			DevourersMawProjectile.DisplayName: Devourers Maw Projectile
+			ResonateStrikerProjectile.DisplayName: Resonate Striker Projectile
+			RighteousDawnProjectile.DisplayName: Righteous Dawn Projectile
+			GhastlyHandProjectile.DisplayName: Ghastly Hand Projectile
+			UnrelentingTormentProjectile.DisplayName: Unrelenting Torment Projectile
+			CongeledCorruptProjectile.DisplayName: Congeled Corrupt Projectile
+			CongeledCrimsonProjectile.DisplayName: Congeled Crimson Projectile
+			SludgeJudgeProj.DisplayName: Sludge Judge Proj
+			SludgeJudgeProj1.DisplayName: Sludge Judge Proj1
+			CoralCrusherProj.DisplayName: Coral Crusher Proj
+			CoralProj.DisplayName: Coral Proj
+			CoralProj2.DisplayName: Coral Proj2
+			FungalFlailProj.DisplayName: Fungal Flail Proj
+			SkySplitterProj.DisplayName: Sky Splitter Proj
+			StaticScourgeProjectile.DisplayName: Static Scourge Projectile
+			WulfrumChainProjectile.DisplayName: Wulfrum Chain Projectile
+		}
+
+		Configs: {
+			UnofficialCalamityWhipsConfig: {
+				DisplayName: Unofficial Calamity Whips Config
+				Headers.Config: Config Header
+
+				WhipDamageModifier: {
+					Label: Whip Damage Modifer
+					Tooltip: Modifies the damage of every whip in this mod by the chosen number. Use this to buff or nerf the mod as you see fit
+				}
+
+				AddArmorStats: {
+					Label: Add Whip Stats to Calamity Armors
+					Tooltip: Adds extra whip stats to some calamity armors while enabled, to make whips more viable
+				}
+
+				AllowTagStacking: {
+					Label: Enable Tag Debuff Stacking
+					Tooltip: Allows whips in this mod to stack their tag effects. If set to false, all previous tag effects will be removed on applying a new one
+				}
+
+				CatalystDisclaimer: {
+					Label: Catalyst Disclaimer
+					Tooltip: Disable this to remove the disclaimer advertising the Catalyst Mod
+				}
+			}
+		}
 	}
 }

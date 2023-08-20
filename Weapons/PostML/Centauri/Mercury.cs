@@ -11,7 +11,6 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class Mercury : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Mercury"); // Name of the projectile. It can be appear in chat
 
 			ProjectileID.Sets.CultistIsResistantTo[Projectile.type] = true; // Make the cultist resistant to this projectile, as it's resistant to all homing projectiles.
 		}
@@ -33,7 +32,8 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
 			Projectile.timeLeft = 600; // The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
 
 		}
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
 		{
 			target.AddBuff(ModContent.BuffType<CentauriDebuff>(), 240);
 			if (ModContent.TryFind("CalamityMod/HolyFlames", out ModBuff buff)) {

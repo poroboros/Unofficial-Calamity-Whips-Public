@@ -61,7 +61,7 @@ namespace UnofficialCalamityWhips.Accessories.GloveCraftingTree.GlovePotions
 			}
 		}
 
-		public override void OnHitNPCWithProj(Projectile proj, NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
         {
 			if (hasLeaf && timer == 0 && proj.DamageType == DamageClass.SummonMeleeSpeed) {
 				//Main.NewText(proj.DamageType.ToString(), 150, 250, 150);

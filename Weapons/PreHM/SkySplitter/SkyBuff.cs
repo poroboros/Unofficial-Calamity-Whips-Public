@@ -12,8 +12,6 @@ namespace UnofficialCalamityWhips.Weapons.PreHM.SkySplitter {
         public override void SetStaticDefaults()
         {
             Main.debuff[Type] = false;
-            DisplayName.SetDefault("Aerial");
-            Description.SetDefault("Increases flight time");
             Main.buffNoTimeDisplay[Type] = false;
         }
         public int rand = 1;
@@ -54,7 +52,7 @@ namespace UnofficialCalamityWhips.Weapons.PreHM.SkySplitter {
 		//Lighting.AddLight(npc.position, 0.1f, 0.2f, 0.7f);
 		
 
-        public override void OnHitNPCWithProj(Projectile proj, NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
         {
             if (skyBuff && proj.DamageType == DamageClass.SummonMeleeSpeed) {
                 if(Main.rand.NextBool(2)) {

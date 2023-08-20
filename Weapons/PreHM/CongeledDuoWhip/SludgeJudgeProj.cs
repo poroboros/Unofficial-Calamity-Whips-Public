@@ -89,7 +89,7 @@ namespace UnofficialCalamityWhips.Weapons.PreHM.CongeledDuoWhip
 
 
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit) {
+		public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone) {
 			target.AddBuff(ModContent.BuffType<CongeledTagDebuff>(), 240);
 			Projectile.damage = (int)(Projectile.damage * .8f);
 			if (Projectile.damage < 1) {

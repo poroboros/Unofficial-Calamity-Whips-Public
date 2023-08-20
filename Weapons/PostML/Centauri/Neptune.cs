@@ -12,7 +12,7 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class Neptune : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Typhoon");
+
 		}
 
 		public override void SetDefaults()

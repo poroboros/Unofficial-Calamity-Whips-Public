@@ -69,10 +69,11 @@ namespace UnofficialCalamityWhips.Accessories.GloveCraftingTree.BuffsDebuffs
 			}	
 		}
 
-		public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref int damage, ref float knockback, ref bool crit, ref int hitDirection) {
+
+		public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers) {
 			if (hasBitter && projectile.type == ProjectileID.FlinxMinion) {
 				npc.AddBuff(BuffID.Frostburn, 240);
-				knockback += 20;
+				modifiers.Knockback += 20;
 			}
 		}
 

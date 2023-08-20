@@ -30,7 +30,7 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
             tagDebuff = ModContent.BuffType<CentauriDebuff>();
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             if (ModContent.TryFind("CalamityMod/Electrified", out ModBuff buff))
             {

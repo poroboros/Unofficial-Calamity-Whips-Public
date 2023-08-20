@@ -10,7 +10,7 @@ namespace UnofficialCalamityWhips.Weapons.PostML.Centauri {
     internal class jupiter : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Jupiter");
+
 		}
 
 		public override void SetDefaults()

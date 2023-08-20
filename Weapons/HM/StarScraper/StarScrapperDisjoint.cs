@@ -12,7 +12,7 @@ namespace UnofficialCalamityWhips.Weapons.HM.StarScraper {
     internal class StarScrapperDisjoint : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Star Scrapper Disjoint");
+
 		}
 
 		public override void SetDefaults()

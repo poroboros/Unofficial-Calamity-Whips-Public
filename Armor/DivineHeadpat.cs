@@ -27,7 +27,6 @@ namespace UnofficialCalamityWhips.Armor
 			//Item.defense = 4; // The amount of defense the item will give when equipped
             Item.accessory = true;
 			Item.vanity = true;
-            Item.canBePlacedInVanityRegardlessOfConditions = true;
 		}
 
 		public override void UpdateVanity(Player player) {

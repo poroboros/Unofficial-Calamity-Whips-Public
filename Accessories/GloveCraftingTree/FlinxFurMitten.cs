@@ -66,7 +66,7 @@ namespace UnofficialCalamityWhips.Accessories.GloveCraftingTree
 			}
 		}*/
 
-		public override void OnHitNPCWithProj(Projectile proj, NPC target, int damage, float knockback, bool crit)
+		public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int damageDone)
         {
 			if (hasGlove&& proj.DamageType == DamageClass.SummonMeleeSpeed && !target.buffImmune[BuffID.Confused]) {
 				if (UnofficialCalamityWhips.calamity != null)

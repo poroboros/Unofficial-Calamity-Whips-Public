@@ -18,7 +18,7 @@ namespace UnofficialCalamityWhips.Weapons.HM.StarScraper {
 		public float projSpeed = 10f;
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Stardust Squid");
+
 		}
 
 		public override void SetDefaults()

@@ -13,7 +13,9 @@ namespace UnofficialCalamityWhips
     {
 
         bool runOnce = true;
-        public override void OnEnterWorld(Player player)
+
+
+        public override void OnEnterWorld()
         {
             if (ModContent.GetInstance<UnofficialCalamityWhipsConfig>().CatalystDisclaimer && runOnce) {
                 Main.NewText("DISCLAIMER: Unofficial Calamity Whips has concluded development and has been merged with Catalyst, for higher quality and more exciting whips, wait for the next Catalyst update!", Color.PowderBlue);

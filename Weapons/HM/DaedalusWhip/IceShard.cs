@@ -12,7 +12,7 @@ namespace UnofficialCalamityWhips.Weapons.HM.DaedalusWhip {
     internal class IceShard : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Ice Shard");
+
 		}
 
 		public override void SetDefaults()

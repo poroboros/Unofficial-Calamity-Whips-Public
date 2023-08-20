@@ -12,7 +12,7 @@ namespace UnofficialCalamityWhips.Weapons.HM.DaedalusWhip {
     internal class SnowBall : ModProjectile{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("snowball");
+
 		}
 
 		public override void SetDefaults()

@@ -106,7 +106,7 @@ namespace UnofficialCalamityWhips.Globals
             ResetEffects(npc);
         }
 
-        public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref int damage, ref float knockback, ref bool crit, ref int hitDirection) {
+        public override void ModifyHitByProjectile(NPC npc, Projectile projectile, ref NPC.HitModifiers modifiers) {
 
             NewPlayerStats newStats = Main.player[projectile.owner].GetModPlayer<NewPlayerStats>();
             UnofficialCalamityWhipsConfig config = ModContent.GetInstance<UnofficialCalamityWhipsConfig>();
@@ -125,10 +125,11 @@ namespace UnofficialCalamityWhips.Globals
 
                 //daedalus whip tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<DaedalusWhipDebuff>() && daedalusIndex > -1) || (config.AllowTagStacking && daedalusIndex > -1)) {
-                    damage = damage + (damage * 11) / 100;
+
+                    modifiers.ScalingBonusDamage += .11f;
 
                     if (newStats.daedalusCooldown <= 0) {
-                        int proj = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, Microsoft.Xna.Framework.Vector2.Normalize(projectile.velocity)*5, ModContent.ProjectileType<SnowBall>(), damage/2, 0.0f, projectile.owner);
+                        int proj = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, Microsoft.Xna.Framework.Vector2.Normalize(projectile.velocity)*5, ModContent.ProjectileType<SnowBall>(), projectile.damage/2, 0.0f, projectile.owner);
                         Main.projectile[proj].DamageType = DamageClass.Summon;
                         newStats.daedalusCooldown = 60;
                         //Main.NewText(true);
@@ -183,7 +184,7 @@ namespace UnofficialCalamityWhips.Globals
 
                 //siren's serenity tag debuff
                 if (((!config.AllowTagStacking && activeTag == ModContent.BuffType<SirensSerenityDebuff>() && sirenIndex > -1) || (config.AllowTagStacking && sirenIndex > -1))&& Main.player[projectile.owner].GetModPlayer<NewPlayerStats>().sirenCooldown < 1) {
-                    damage = damage + (damage * 18) / 100;
+                    modifiers.ScalingBonusDamage += .18f;
                     NewPlayerStats stats = Main.player[projectile.owner].GetModPlayer<NewPlayerStats>();
 					stats.sirenCooldown = 480;
 					if(stats.healingOrbCount < 3) {
@@ -202,7 +203,7 @@ namespace UnofficialCalamityWhips.Globals
                     newStats.whipTarget = npc;
                     for (int i = 0; i < 4; i++) {
                         launchVelocity = launchVelocity.RotatedBy(MathHelper.PiOver2);
-                        int proj = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, launchVelocity, ModContent.ProjectileType<StarScrapperDisjoint>(), damage/2, 0.0f, projectile.owner, 0.0f, 0.0f);
+                        int proj = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, launchVelocity, ModContent.ProjectileType<StarScrapperDisjoint>(), projectile.damage/2, 0.0f, projectile.owner, 0.0f, 0.0f);
                         Main.projectile[proj].DamageType = DamageClass.Summon;
                     }
                     npc.DelBuff(scraperIndex);
@@ -249,17 +250,17 @@ namespace UnofficialCalamityWhips.Globals
 
                 //blossom's blessing tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<BlossomsBlessingDebuff>() && blossomIndex > -1) || (config.AllowTagStacking && blossomIndex > -1)) {
-				    damage = damage+(damage*30)/100;
-			    }
+                    modifiers.ScalingBonusDamage += .3f;
+                }
 
                 //centauri tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<CentauriDebuff>() && centauriIndex > -1) || (config.AllowTagStacking && centauriIndex > -1)) {
-                    damage = damage + (damage * 50) / 100;
+                    modifiers.ScalingBonusDamage += .5f;
                 }
 
                 //resonate tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<ResonateTagDebuff>() && resonateIndex > -1) || (config.AllowTagStacking && resonateIndex > -1)) {
-                    damage += (int)(damage*.2f);
+                    modifiers.ScalingBonusDamage += .2f;
                 }
 
 
@@ -295,16 +296,16 @@ namespace UnofficialCalamityWhips.Globals
 
                 //duo-whip tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<CongeledTagDebuff>() && congeledIndex > -1) || (config.AllowTagStacking && congeledIndex > -1))  {
-                    damage += (int)(damage*.1f);
+                    modifiers.ScalingBonusDamage += .1f;
                 }
 
                 //coral crusher tag debuff
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<CoralCrusherDebuff>() && coralIndex > -1) || (config.AllowTagStacking && coralIndex > -1))
                  {
-                    damage = damage + (damage * 6) / 100;      
+                    modifiers.ScalingBonusDamage += .06f;
                     if (Main.rand.NextBool(1)) {
                         int projType = Main.rand.NextBool(2) ? ModContent.ProjectileType<CoralProj>() : ModContent.ProjectileType<CoralProj2>();
-                        int Proj2 = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, projectile.velocity.RotatedByRandom(360) *0.90f, projType, damage/2, 0.0f, projectile.owner, 0.0f, 0.0f);
+                        int Proj2 = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, projectile.velocity.RotatedByRandom(360) *0.90f, projType, projectile.damage/2, 0.0f, projectile.owner, 0.0f, 0.0f);
                         npc.DelBuff(coralIndex);
                         coralIndex = -1;
                     }
@@ -312,7 +313,7 @@ namespace UnofficialCalamityWhips.Globals
 
                 //fungal flail tag debuff
                 if (((!config.AllowTagStacking && activeTag == ModContent.BuffType<FungalFlailDebuff>() && fungalIndex > -1) || (config.AllowTagStacking && fungalIndex > -1)) && newStats.fungalCooldown <= 0) {
-                    damage += (int)(damage * .04f); //multiplicative tag damage
+                    modifiers.ScalingBonusDamage += .04f; //multiplicative tag damage
                     if (Main.rand.NextBool(3)) {
                         if (UnofficialCalamityWhips.calamity != null && UnofficialCalamityWhips.calamity.TryFind<ModProjectile>("FungiOrb", out ModProjectile FungiOrb)) {
                             int proj = Projectile.NewProjectile(Entity.InheritSource(projectile), npc.position, projectile.velocity, FungiOrb.Type, 10, 0.0f, projectile.owner, 0.0f, 0.0f);
@@ -332,7 +333,7 @@ namespace UnofficialCalamityWhips.Globals
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<SkySplitterDebuff>() && skyIndex > -1) || (config.AllowTagStacking && skyIndex > -1)) {
                     Player player = Main.player[projectile.owner];
                     Random rnd = new Random();
-                    damage = damage + (damage * 5) / 100;
+                    modifiers.ScalingBonusDamage += .05f;
                     // mapping of chance
                     // maxMinion = 0 --> probability = 1
                     // maxMinion = 30 --> probability = 0.05
@@ -366,7 +367,7 @@ namespace UnofficialCalamityWhips.Globals
                 }
 
                 if ((!config.AllowTagStacking && activeTag == ModContent.BuffType<DevourerTagDebuff>() && devourerIndex > -1) || (config.AllowTagStacking && devourerIndex > -1)) {
-                    damage = damage + (damage * 30) / 100;
+                    modifiers.ScalingBonusDamage += .3f;
                     Player player = Main.player[projectile.owner];
                 }
             }
