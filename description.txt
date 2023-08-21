@@ -13,6 +13,9 @@ Artists: Thyreophora, g0ldyosh, bleamy, Poroboros
 Special Thanks: Kas
 Community Item Contributors: reldandle, CharlieTheFatCat, KumaTerra, Paige, MothEggs
 
+VERSION 1.1.5 Changes
+Ported to 1.4.4, no additional changes
+
 VERSION 1.1.4 Changes
 Made several internal changes to prepare for the 1.4.4 port.
 Added several sprite changes.

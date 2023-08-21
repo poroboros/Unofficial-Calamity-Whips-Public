@@ -2,4 +2,4 @@ displayName = Unofficial Calamity Whips
 author = The Unofficial Calamity Whips Team
 modReferences = CalamityMod
 homepage = https://discord.gg/ZCYvXjKeHf
-version = 1.1.4
+version = 1.1.5
