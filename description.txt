@@ -14,7 +14,9 @@ Special Thanks: Kas
 Community Item Contributors: reldandle, CharlieTheFatCat, KumaTerra, Paige, MothEggs
 
 VERSION 1.1.5 Changes
-Ported to 1.4.4, no additional changes
+Ported to 1.4.4, no additional changes.
+The Catalyst Mod that this mod has been merged with is still being ported, so sit sight for the updated versions of the whips for 1.4.4.
+This mod will probably not be updated again until 1.4.5 (Unless bugs). There are no plans to make any additions to this mod, I am maintaining it for legacy purposes.
 
 VERSION 1.1.4 Changes
 Made several internal changes to prepare for the 1.4.4 port.
