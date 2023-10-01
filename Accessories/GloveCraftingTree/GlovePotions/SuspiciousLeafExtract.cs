@@ -32,7 +32,7 @@ namespace UnofficialCalamityWhips.Accessories.GloveCraftingTree.GlovePotions
 				Recipe recipe = CreateRecipe();
 				recipe.AddIngredient(UnofficialCalamityWhips.calamity.Find<ModItem>("MurkyPaste").Type, 5);
 				recipe.AddIngredient(ItemID.Moonglow, 3);
-				recipe.AddIngredient(UnofficialCalamityWhips.calamity.Find<ModItem>("BeetleJuice").Type, 2);
+				//recipe.AddIngredient(UnofficialCalamityWhips.calamity.Find<ModItem>("BeetleJuice").Type, 2);
 				recipe.AddIngredient(ItemID.Bottle);
 				recipe.AddTile(TileID.AlchemyTable);
 				recipe.Register();

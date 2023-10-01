@@ -94,9 +94,9 @@ namespace UnofficialCalamityWhips.Globals
 
         public void RemoveTagDebuffs(NPC npc) {
             foreach (int buff in npc.buffType) {
-                if (buff < BuffID.Sets.IsAnNPCWhipDebuff.Length && buff > -1) {
-                    //Main.NewText(buff + " " + BuffID.Sets.IsAnNPCWhipDebuff.Length);
-                    if (BuffID.Sets.IsAnNPCWhipDebuff[buff] == true) {
+                if (buff < BuffID.Sets.IsATagBuff.Length && buff > -1) {
+                    //Main.NewText(buff + " " + BuffID.Sets.IsATagBuff.Length);
+                    if (BuffID.Sets.IsATagBuff[buff] == true) {
                         if (npc.FindBuffIndex(buff) < npc.buffType.Length && npc.FindBuffIndex(buff) >= 0) {
                             npc.DelBuff(npc.FindBuffIndex(buff));
                         }

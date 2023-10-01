@@ -15,7 +15,7 @@ namespace UnofficialCalamityWhips.Weapons.PostML.BlossomsBlessing {
 		public override void SetStaticDefaults()
 		{
 			Main.debuff[Type] = true;
-            BuffID.Sets.IsAnNPCWhipDebuff[Type] = true;
+            BuffID.Sets.IsATagBuff[Type] = true;
             Main.buffNoSave[Type] = true;
 		}
 
